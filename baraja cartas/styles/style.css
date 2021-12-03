@@ -1,0 +1,535 @@
+body
+{
+	background-color: green;
+}
+
+.carta
+{
+	height:  300px;
+	width:  200px;
+	background: white;
+	border: solid #E41B1B 1px;
+	border-radius: 10px;
+}
+
+
+@keyframes dostreb_anim
+{
+	0% {left:  150px;
+		top:  50px;
+		transform: rotate(0deg);}
+	
+	100% {left:  150px;
+		  top:  50px;
+	      transform: rotate(-45deg);}
+}
+
+@keyframes trespic_anim
+{
+	0% {left:  150px;
+		top:  50px;
+		transform: rotate(0deg)}
+
+	100% {left:  200px;
+		  top:  50px;
+		  transform: rotate(-25deg)}
+}
+
+@keyframes cuatrotreb_anim
+{
+	0% {left:  150px;
+		top:  50px;
+		transform: rotate(0deg)}
+
+	100% {left:  250px;
+		  top:  50px;
+		  transform: rotate(-5deg)}
+}
+
+@keyframes sietetreb_anim
+{
+	0% {left:  150px;
+		top:  50px;
+		transform: rotate(0deg)}
+
+	100% {left:  300px;
+		  top:  60px;
+		  transform: rotate(10deg)}
+}
+
+@keyframes cincocor_anim
+{
+	0% {left:  150px;
+		top:  50px;
+		transform: rotate(0deg)}
+
+	100% {left:  350px;
+		  top:  70px;
+		  transform: rotate(30deg);}
+}
+
+
+
+
+
+
+/*CARTA 5 CORAZONES*/
+
+
+#numeracion5corazones>.numero
+{
+	font-size: 40px;
+	color: #E41B1B;
+}
+
+#numeracion5corazones>.simbolo
+{
+	font-size: 40px;
+	color: #E41B1B;
+}
+
+#numeracion5corazones_invertido>.numero
+{
+	font-size: 40px;
+	color: #E41B1B;
+}
+
+#numeracion5corazones_invertido>.simbolo
+{
+	font-size: 40px;
+	color: #E41B1B;
+}
+
+#cinco_corazones>.palo
+{
+	font-size: 40px;
+	color: #E41B1B;
+}
+
+#cinco_corazones
+{
+	position:  relative;
+	left:  350px;
+	top:  70px;
+	transform: rotate(30deg);
+	z-index: 50;
+	animation-name: cincocor_anim;
+	animation-delay: 1s;
+	animation-duration: 4s;
+}
+
+#numeracion5corazones_invertido
+{
+	transform:  rotate(180deg);
+	position:  absolute;
+	bottom:  0px;
+	right:  0px;
+}
+
+#cinco_corazones>#palo1
+{
+	position:  absolute;
+	top:  10px;
+	left:  40px;
+	font-size: 70px;
+}
+
+#cinco_corazones>#palo2
+{
+	position:  absolute;
+	top:  10px;
+	left:  120px;
+	font-size: 70px;
+}
+
+#cinco_corazones>#palo3
+{
+	position:  absolute;
+	top:  110px;
+	left:  80px;
+	font-size: 70px;
+}
+
+#cinco_corazones>#palo4
+{
+	position:  absolute;
+	top:  210px;
+	left:  45px;
+	font-size: 70px;
+}
+
+#cinco_corazones>#palo5
+{
+	position:  absolute;
+	top:  210px;
+	left:  115px;
+	font-size: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+/*CARTA 2 TREBOLES*/
+
+
+#dos_treboles
+{
+	position:  absolute;
+	left:  150px;
+	top:  50px;
+	transform: rotate(-45deg);
+	z-index: 0;
+	animation-name: dostreb_anim;
+	animation-duration: 4s;
+	animation-delay: 1s;
+}
+
+#numeracion2treboles>.numero
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion2treboles>.simbolo
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion2treboles_invertido>.numero
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion2treboles_invertido>.simbolo
+{
+	font-size: 40px;
+	color: black;
+}
+
+#dos_treboles>#palo1
+{
+	position:  absolute;
+	top:  10px;
+	left:  40px;
+	font-size: 70px;
+}
+
+#dos_treboles>#palo2
+{
+	position:  absolute;
+	top:  210px;
+	left:  120px;
+	font-size: 70px;
+	transform: rotate(180deg);
+}
+
+#dos_treboles>.palo
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion2treboles_invertido
+{
+	transform:  rotate(180deg);
+	position:  absolute;
+	bottom:  0px;
+	right:  0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*CARTA 4 TREBOLES*/
+
+
+#cuatro_treboles
+{
+	position:  absolute;
+	left:  250px;
+	top:  50px;
+	transform: rotate(-5deg);
+	z-index: 20;
+	animation-name: cuatrotreb_anim;
+	animation-delay: 1s;
+	animation-duration: 4s;
+}
+
+#numeracion4treboles>.numero
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion4treboles>.simbolo
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion4treboles_invertido>.numero
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion4treboles_invertido>.simbolo
+{
+	font-size: 40px;
+	color: black;
+}
+
+#cuatro_treboles>#palo1
+{
+	position:  absolute;
+	top:  10px;
+	left:  40px;
+	font-size: 70px;
+}
+
+#cuatro_treboles>#palo2
+{
+	position:  absolute;
+	top:  10px;
+	left:  120px;
+	font-size: 70px;
+}
+
+#cuatro_treboles>#palo4
+{
+	position:  absolute;
+	top:  210px;
+	left:  120px;
+	font-size: 70px;
+}
+
+#cuatro_treboles>#palo3
+{
+	position:  absolute;
+	top:  210px;
+	left:  45px;
+	font-size: 70px;
+}
+
+#numeracion4treboles_invertido
+{
+	transform:  rotate(180deg);
+	position:  absolute;
+	bottom:  0px;
+	right:  0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CARTA 3 PICAS*/
+
+
+#tres_picas
+{
+	position:  absolute;
+	left:  200px;
+	top:  50px;
+	transform: rotate(-25deg);
+	z-index: 10;
+	animation-name: trespic_anim;
+	animation-delay: 1s;
+	animation-duration: 4s;
+}
+
+#numeracion3picas>.numero
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion3picas>.simbolo
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion3picas_invertido>.numero
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion3picas_invertido>.simbolo
+{
+	font-size: 40px;
+	color: black;
+}
+
+#tres_picas>#palo1
+{
+	position:  absolute;
+	top:  10px;
+	left:  40px;
+	font-size: 70px;
+}
+
+#tres_picas>#palo2
+{
+	position:  absolute;
+	top:  210px;
+	left:  120px;
+	font-size: 70px;
+}
+
+#tres_picas>#palo3
+{
+	position:  absolute;
+	top:  110px;
+	left:  80px;
+	font-size: 70px;
+}
+
+#numeracion3picas_invertido
+{
+	transform:  rotate(180deg);
+	position:  absolute;
+	bottom:  0px;
+	right:  0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CARTA 7 TREBOLES*/
+
+#siete_treboles
+{
+	position:  absolute;
+	left:  300px;
+	top:  60px;
+	transform: rotate(10deg);
+	z-index: 30;
+	animation-name: sietetreb_anim;
+	animation-delay: 1s;
+	animation-duration: 4s;
+}
+
+#numeracion7treboles>.numero
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion7treboles>.simbolo
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion7treboles_invertido>.numero
+{
+	font-size: 40px;
+	color: black;
+}
+
+#numeracion7treboles_invertido>.simbolo
+{
+	font-size: 40px;
+	color: black;
+}
+
+#siete_treboles>#palo1
+{
+	position:  absolute;
+	top:  10px;
+	left:  40px;
+	font-size: 70px;
+}
+
+#siete_treboles>#palo2
+{
+	position:  absolute;
+	top:  10px;
+	left: 120px;
+	font-size: 70px;
+}
+
+#siete_treboles>#palo3
+{
+	position:  absolute;
+	top:  65px;
+	left:  80px;
+	font-size: 70px;
+}
+
+#siete_treboles>#palo4
+{
+	position:  absolute;
+	top:  120px;
+	left:  40px;
+	font-size: 70px;
+}
+
+#siete_treboles>#palo5
+{
+	position:  absolute;
+	top:  120px;
+	left:  120px;
+	font-size: 70px;
+}
+
+#siete_treboles>#palo6
+{
+	position:  absolute;
+	top:  210px;
+	left:  40px;
+	font-size: 70px;
+}
+
+#siete_treboles>#palo7
+{
+	position:  absolute;
+	top:  210px;
+	left:  120px;
+	font-size: 70px;
+}
+
+#numeracion7treboles_invertido
+{
+	transform:  rotate(180deg);
+	position:  absolute;
+	bottom:  0px;
+	right:  0px;
+}
